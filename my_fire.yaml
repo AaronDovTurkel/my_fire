@@ -66,6 +66,6 @@ points:
     ref: matrix_pinky_home
     distance: 185
 pcbs:
-  sodalatte:
+  myfire:
     outlines: {}
     footprints: {}

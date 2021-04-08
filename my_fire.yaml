@@ -5,37 +5,45 @@ points:
         rotate: 5
       columns:
         meta:
+          spread: cx
           row_overrides:
             home:
         pinky:
+          spread: cx
           stagger: -11
           row_overrides:
             home:
             top:
         ring:
+          spread: cx
           rotate: -5
           origin: [-12, -19]
           stagger: 6
         middle:
+          spread: cx
+          origin: [-12, -19]
           rotate: -2.5
           stagger: 5
         index:
+          spread: cx
           stagger: -8
         inner:
+          spread: cx
           stagger: 10
           row_overrides:
-            top:
             bottom:
+            home:
       rows:
         bottom:
+            padding: cy
         home:
+            padding: cy
         top:
     thumbfan:
       anchor:
         ref: matrix_middle_bottom
-        shift: [5, -32]
+        shift: [10, -36]
       columns:
-        near:
         home:
           spread: 25
           rotate: -28
@@ -46,7 +54,7 @@ points:
           origin: [-9.5, -9]
       rows:
         thumb:
-  rotate: -20
+  rotate: -24
   key:
     footprints:
       switch:
@@ -56,7 +64,7 @@ points:
           to: whatever
   mirror:
     ref: matrix_pinky_home
-    distance: 200
+    distance: 185
 pcbs:
   sodalatte:
     outlines: {}

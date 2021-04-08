@@ -1,0 +1,63 @@
+points:
+  zones:
+    matrix:
+      anchor:
+        rotate: 5
+      columns:
+        meta:
+          row_overrides:
+            home:
+        pinky:
+          stagger: -11
+          row_overrides:
+            home:
+            top:
+        ring:
+          rotate: -5
+          origin: [-12, -19]
+          stagger: 6
+        middle:
+          rotate: -2.5
+          stagger: 5
+        index:
+          stagger: -8
+        inner:
+          stagger: 10
+          row_overrides:
+            top:
+            bottom:
+      rows:
+        bottom:
+        home:
+        top:
+    thumbfan:
+      anchor:
+        ref: matrix_middle_bottom
+        shift: [5, -32]
+      columns:
+        near:
+        home:
+          spread: 25
+          rotate: -28
+          origin: [-11.75, -9]
+        far:
+          spread: 21.25
+          rotate: -28
+          origin: [-9.5, -9]
+      rows:
+        thumb:
+  rotate: -20
+  key:
+    footprints:
+      switch:
+        type: choc
+        nets:
+          from: whatever
+          to: whatever
+  mirror:
+    ref: matrix_pinky_home
+    distance: 200
+pcbs:
+  sodalatte:
+    outlines: {}
+    footprints: {}

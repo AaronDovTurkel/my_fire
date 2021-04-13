@@ -12,6 +12,10 @@ points:
               column_net: c9
           row_overrides:
             home:
+              key:
+                row_net: r0
+                mirror:
+                  row_net: r0
         pinky:
           spread: cx
           stagger: -11
@@ -56,7 +60,15 @@ points:
               column_net: c5
           row_overrides:
             bottom:
+              key:
+                row_net: r1
+                mirrow:
+                  row_net: r1
             home:
+              key:
+                row_net: r2
+                mirrow:
+                  row_net: r2
       rows:
         bottom:
             padding: cy

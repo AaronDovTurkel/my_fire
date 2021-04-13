@@ -104,7 +104,6 @@ points:
         thumb:
           key:
             row_net: r3
-  rotate: -24
     key:
       footprints:
         choc:
@@ -125,6 +124,7 @@ points:
             nets:
               from: =column_net
               to: =colrow
+  rotate: -24
   mirror:
     ref: matrix_pinky_home
     distance: 185

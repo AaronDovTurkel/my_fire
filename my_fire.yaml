@@ -125,4 +125,6 @@ points:
 pcbs:
   myfire:
     outlines: {}
-    footprints: {}
+    footprints:
+      mcu:
+        type: promicro

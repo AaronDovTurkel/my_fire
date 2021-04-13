@@ -8,8 +8,7 @@ points:
           spread: cx
           key:
             column_net: c0
-          mirror:
-            key:
+            mirror:
               column_net: c9
           row_overrides:
             home:
@@ -18,8 +17,7 @@ points:
           stagger: -11
           key:
             column_net: c0
-          mirror:
-            key:
+            mirror:
               column_net: c9
           row_overrides:
             home:
@@ -31,8 +29,7 @@ points:
           stagger: 6
           key:
             column_net: c1
-          mirror:
-            key:
+            mirror:
               column_net: c8
         middle:
           spread: cx
@@ -41,24 +38,21 @@ points:
           stagger: 5
           key:
             column_net: c2
-          mirror:
-            key:
+            mirror:
               column_net: c7
         index:
           spread: cx
           stagger: -8
           key:
             column_net: c3
-          mirror:
-            key:
+            mirror:
               column_net: c6
         inner:
           spread: cx
           stagger: 10
           key:
             column_net: c4
-          mirror:
-            key:
+            mirror:
               column_net: c5
           row_overrides:
             bottom:
@@ -86,8 +80,7 @@ points:
           origin: [-11.75, -9]
           key:
             column_net: c3
-          mirror:
-            key:
+            mirror:
               column_net: c6
         far:
           spread: 21.25
@@ -95,8 +88,7 @@ points:
           origin: [-9.5, -9]
           key:
             column_net: c4
-          mirror:
-            key:
+            mirror:
               column_net: c5
       rows:
         thumb:

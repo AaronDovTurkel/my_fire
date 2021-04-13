@@ -6,11 +6,21 @@ points:
       columns:
         meta:
           spread: cx
+          key:
+            column_net: c0
+          mirror:
+            key:
+              column_net: c9
           row_overrides:
             home:
         pinky:
           spread: cx
           stagger: -11
+          key:
+            column_net: c0
+          mirror:
+            key:
+              column_net: c9
           row_overrides:
             home:
             top:
@@ -19,26 +29,52 @@ points:
           rotate: -5
           origin: [-12, -19]
           stagger: 6
+          key:
+            column_net: c1
+          mirror:
+            key:
+              column_net: c8
         middle:
           spread: cx
           origin: [-12, -19]
           rotate: -2.5
           stagger: 5
+          key:
+            column_net: c2
+          mirror:
+            key:
+              column_net: c7
         index:
           spread: cx
           stagger: -8
+          key:
+            column_net: c3
+          mirror:
+            key:
+              column_net: c6
         inner:
           spread: cx
           stagger: 10
+          key:
+            column_net: c4
+          mirror:
+            key:
+              column_net: c5
           row_overrides:
             bottom:
             home:
       rows:
         bottom:
             padding: cy
+            key:
+              row_net: r0
         home:
             padding: cy
+            key:
+              row_net: r1
         top:
+            key:
+              row_net: r2
     thumbfan:
       anchor:
         ref: matrix_middle_bottom
@@ -48,20 +84,39 @@ points:
           spread: 25
           rotate: -28
           origin: [-11.75, -9]
+          key:
+            column_net: c3
+          mirror:
+            key:
+              column_net: c6
         far:
           spread: 21.25
           rotate: -28
           origin: [-9.5, -9]
+          key:
+            column_net: c4
+          mirror:
+            key:
+              column_net: c5
       rows:
         thumb:
+          key:
+            row_net: r3
   rotate: -24
-  key:
-    footprints:
-      switch:
-        type: choc
-        nets:
-          from: whatever
-          to: whatever
+    key:
+      footprints:
+        choc:
+          type: choc_hotswap
+          nets:
+            from: =colrow
+            to: =column_net
+        diode:
+          type: diode
+          anchor:
+            shift: [0, -cy/2]
+          nets:
+            from: =colrow
+            to: =row_net
   mirror:
     ref: matrix_pinky_home
     distance: 185

@@ -121,10 +121,10 @@ points:
             to: =row_net
       mirror:
         footprints:
-        choc:
-          nets:
-            from: =column_net
-            to: =colrow
+          choc:
+            nets:
+              from: =column_net
+              to: =colrow
   mirror:
     ref: matrix_pinky_home
     distance: 185

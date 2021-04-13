@@ -128,3 +128,8 @@ pcbs:
     footprints:
       mcu:
         type: promicro
+        anchor:
+          ref:
+            - matrix_inner_bottom
+            - mirror_matrix_inner_bottom
+          rotate: 270

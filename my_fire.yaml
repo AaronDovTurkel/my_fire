@@ -14,8 +14,6 @@ points:
             home:
               key:
                 row_net: r0
-                mirror:
-                  row_net: r0
         pinky:
           spread: cx
           stagger: -11
@@ -62,12 +60,12 @@ points:
             bottom:
               key:
                 row_net: r1
-                mirrow:
+                mirror:
                   row_net: r1
             home:
               key:
                 row_net: r2
-                mirrow:
+                mirror:
                   row_net: r2
       rows:
         bottom:
